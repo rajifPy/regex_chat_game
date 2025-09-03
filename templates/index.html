@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Regex Chat Game</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="app">
+    <header><h1>Regex Chat — Love or Break?</h1></header>
+    <main>
+      <div id="meta" class="meta">Level: <span id="level">-</span> | Nyawa: <span id="lives">-</span> / <span id="total">-</span></div>
+      <div id="chat" class="chat"></div>
+
+      <div class="controls">
+        <button id="btnNew">Mulai Puzzle Baru</button>
+      </div>
+
+      <div class="input-row">
+        <input id="answer" placeholder="Tulis jawaban (pisahkan dengan koma jika lebih dari satu)"/>
+        <button id="send">Kirim</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
