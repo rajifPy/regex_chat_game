@@ -1,0 +1,17 @@
+body{font-family:Inter,system-ui,Arial;margin:0;background:#f4f6f9;color:#111}
+.app{max-width:760px;margin:20px auto;background:#fff;border-radius:8px;box-shadow:0 6px 22px rgba(0,0,0,.08);overflow:hidden}
+header{padding:16px 20px;background:#0f172a;color:#fff}
+header h1{margin:0;font-size:18px}
+main{padding:20px}
+.chat{height:360px;overflow:auto;border:1px solid #e6e9ee;padding:12px;border-radius:6px;background:#fbfdff;display:flex;flex-direction:column}
+.bubble{max-width:78%;padding:10px 12px;margin:8px 0;border-radius:12px;display:inline-block}
+.bubble.girl{background:#fff3f8;border:1px solid #ffd6e8;align-self:flex-start}
+.bubble.boy{background:#e8f5ff;border:1px solid #cfeeff;align-self:flex-end;margin-left:auto}
+.row{display:flex}
+.controls{display:flex;align-items:center;gap:16px;margin-top:12px}
+.attempts{font-weight:600}
+.input-row{display:flex;gap:8px;margin-top:12px}
+#answer{flex:1;padding:10px;border-radius:8px;border:1px solid #ddd}
+button{padding:10px 12px;border-radius:8px;border:0;background:#2563eb;color:white;cursor:pointer}
+button:disabled{opacity:.5}
+.small{font-size:13px;color:#555;margin-top:6px}
